@@ -23,6 +23,20 @@ The hard part is to find a way to do this that keeps the dev experience afterwar
 * Difficulty: Medium
 * Duration: Short (90-175h)
 
+### Handling many files via file-list CSVs
+
+Image analysis projects typically go through a development or "figuring out a pipeline" phase, and eventually get to the point of passing a large number of images through the finished pipeline.
+Batch-processing is available at the end of all ilastik workflows, but ilastik's output will usually be a large number of processed images, which the user then wants to take into another tool - which can be quite bothersome.
+Two goals would be 
+
+1. Producing a `.csv` table of the exported files in a manner that [MoBIE](https://mobie.github.io/) understands, which would make quality-control on the exported images easier for many users
+2. Supporting the same table format in the Input Data step of workflows, so that files exported from one workflow can easily be added to another workflow.
+
+* Related issues: https://github.com/ilastik/ilastik/issues/2822
+* Skills involved: Python language, OS/filepath handling
+* Difficulty: Easy
+* Duration: Short (90-175h)
+
 ### Improve Multicut UX
 
 "Boundary-based segmentation with multicut" is one of ilastik's most complex workflows.
