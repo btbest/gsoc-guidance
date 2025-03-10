@@ -6,7 +6,8 @@ Main contact and mentor for all projects will be Benedikt Best (@btbest, Central
 
 Like many other projects, we have a "good first issue" label on our [issue tracker](https://github.com/ilastik/ilastik/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22), which should provide a decent entrypoint to get familiar with our code base.
 
-Instructions for setting up the coding environment are in [contributing.md](https://github.com/ilastik/ilastik/blob/main/CONTRIBUTING.md). Please post an issue if the instructions are unclear or something doesn't work for you :)
+Instructions for setting up the coding environment are in [contributing.md](https://github.com/ilastik/ilastik/blob/main/CONTRIBUTING.md).
+Please post an issue if the instructions are unclear or something doesn't work for you - or, even better, suggest an improvement through a Pull Request if you found a workaround despite bad instructions from us :)
 
 ## Project ideas
 
