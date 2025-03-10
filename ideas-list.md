@@ -9,6 +9,8 @@ Like many other projects, we have a "good first issue" label on our [issue track
 Instructions for setting up the coding environment are in [contributing.md](https://github.com/ilastik/ilastik/blob/main/CONTRIBUTING.md).
 Please post an issue if the instructions are unclear or something doesn't work for you - or, even better, suggest an improvement through a Pull Request if you found a workaround despite bad instructions from us :)
 
+Once you're running ilastik from code, you'd probably want to try what you can actually do with it. We have pretty comprehensive [user documentation](https://www.ilastik.org/documentation/) on our website (and YouTube channel linked there), and there are some example image datasets on our [downloads page](https://www.ilastik.org/download).
+
 ## Project ideas
 
 If you're already an ilastik user and have always wanted to fix something, or if you just have an idea of your own, we encourage you to suggest it! Otherwise, here are some suggestions for projects (sorted by expected duration).
