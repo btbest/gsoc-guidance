@@ -71,6 +71,11 @@ Currently, users can only choose one of the available image scales and use the d
 We want to take this to the next level and allow users to run machine learning workflows across scales.
 For example, users could provide pixel labels at a low scale, but choose to train the classifier and run computations at native resolution.
 
+There are two ways to approach this (alternative project ideas):
+
+1. (Harder) Let the user to label images on one scale, but then make it possible to switch the display scale and preview the result at another scale. One problem would need to be addressed before this can even be attempted: Most workflows contain some parts that cannot handle a change in image size within a running workflow.
+2. (Easier) In the Image Export Options widget, analogous to the existing "Cutout Subregion" (i.e. crop), add an option area to for scaling the export. It should allow the user to enter a scaling factor or alternatively target size (in pixels). The widget could additionally scan if any input images are multiscale, and if so, provide a pre-selection of scaling factors or target sizes that correspond to the input image scales.
+
 * Skills involved: Python language, scikit-image, scikit-learn
 * Difficulty: Hard
 * Duration: Long (350h)
