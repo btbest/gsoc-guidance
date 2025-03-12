@@ -1,3 +1,5 @@
 # How to apply
 
-Send us a short CV by email :) (see ilastik.org)
+The guidance from PSF is generally also valid for us: https://python-gsoc.org/contributors.html#faq
+
+Taking the pointers there into account, send us an email :) (see ilastik.org)
