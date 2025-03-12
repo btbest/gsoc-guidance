@@ -1,5 +1,7 @@
 ## Contact / Questions
 
+The guidance from PSF is generally also valid for us (definitely not the parts mentioning IRC though, we do not use IRC...): https://python-gsoc.org/contributors.html#faq
+
 Main contact and mentor for all projects will be Benedikt Best (@btbest, Central European time). Feel free to reach out by [email](mailto:team@ilastik.org) or DM via image.sc [zulip chat](https://imagesc.zulipchat.com/#user/614676).
 
 ## First look at our code base
