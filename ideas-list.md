@@ -1,6 +1,6 @@
 ## Contact / Questions
 
-The guidance from PSF is generally also valid for us (definitely not the parts mentioning IRC though, we do not use IRC...): https://python-gsoc.org/contributors.html#faq
+ilastik participates in Google Summer of Code 2025 as a sub-organization under the Python Software Foundation umbrella. This means the [PSF's contributor guidance](https://python-gsoc.org/contributors.html) generally also applies to applications with us. At least mostly :) The parts mentioning IRC definitely do not apply to ilastik. Make sure you have read their advice!
 
 Main contact and mentor for all projects will be Benedikt Best (@btbest, Central European time). Feel free to reach out by [email](mailto:team@ilastik.org) or DM via image.sc [zulip chat](https://imagesc.zulipchat.com/#user/614676).
 
