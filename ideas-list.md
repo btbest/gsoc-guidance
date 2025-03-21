@@ -77,11 +77,13 @@ Currently, users can only choose one of the available image scales and use the d
 We want to take this to the next level and allow users to run machine learning workflows across scales.
 For example, users could provide pixel labels at a low scale, but choose to train the classifier and run computations at native resolution.
 
-There are two ways to approach this (alternative project ideas):
+Several things need to happen to make this possible (these would be separate project ideas):
 
-1. (Harder) Let the user to label images on one scale, but then make it possible to switch the display scale and preview the result at another scale. One problem would need to be addressed before this can even be attempted: Most workflows contain some parts that cannot handle a change in image size within a running workflow.
-2. (Easier) In the Image Export Options widget, analogous to the existing "Cutout Subregion" (i.e. crop), add an option area to for scaling the export. It should allow the user to enter a scaling factor or alternatively target size (in pixels). The widget could additionally scan if any input images are multiscale, and if so, provide a pre-selection of scaling factors or target sizes that correspond to the input image scales.
+1. (Very hard) We would eventually want the "labelling scale" Most workflows contain some parts that cannot handle a change in image size within a running workflow. This means that once the user changes a particular scale, and then continues in the workflow, they cannot go back and change the scale anymore. To fix this, you would need to gain a relatively deep understanding of our custom computation backend (lazyflow).
+2. (Hard) Frontend: To train a classifier on a different scale than the one the viewer is displaying to the user, we would need to separate the current concept of the "active scale" into a "labeling scale" and a "computation scale" in the gui. Involves PyQt and lazyflow, but mostly PyQt.
+3. (Hard) Backend: The operators involved in loading data would need the same separation of the "active scale" concept. Involves PyQt and lazyflow, but mostly lazyflow.
+4. (Hard) Research: There is no clear "best" way to handle cross-scale machine learning. We have done some tests with one sample image dataset, but would need to run them on more datasets. We have more candidate datasets, but they require manual creation of ground-truth label images. Involves napari, jupyter notebooks and some machine learning outside of ilastik.
 
-* Skills involved: Python language, scikit-image, scikit-learn
+* Skills involved: Python language, PyQt, scikit-image, scikit-learn
 * Difficulty: Hard
 * Duration: Long (350h)
