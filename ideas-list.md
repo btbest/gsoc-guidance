@@ -4,6 +4,10 @@ ilastik participates in Google Summer of Code 2025 as a sub-organization under t
 
 Main contact and mentor for all projects will be Benedikt Best (@btbest, Central European time). Feel free to reach out by [email](mailto:team@ilastik.org) or DM via image.sc [zulip chat](https://imagesc.zulipchat.com/#user/614676).
 
+## Try out ilastik
+
+https://ilastik.org/download for installers - and there are example image datasets at the bottom of the page.
+
 ## First look at our code base
 
 Like many other projects, we have a "good first issue" label on our [issue tracker](https://github.com/ilastik/ilastik/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22), which should provide a decent entrypoint to get familiar with our code base.
