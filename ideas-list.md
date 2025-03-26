@@ -82,7 +82,6 @@ Several things need to happen to make this possible (these would be separate pro
 1. (Very hard) Most workflows contain some parts that cannot handle a change in image size within a running workflow. This means that once the user changes a particular scale, and then continues in the workflow, they cannot go back and change the scale anymore. To fix this, you would need to gain a relatively deep understanding of our custom computation backend (lazyflow).
 2. (Hard) Frontend: To train a classifier on a different scale than the one the viewer is displaying to the user, we would need to separate the current concept of the "active scale" into a "labeling scale" and a "computation scale" in the gui. Involves PyQt and lazyflow, but mostly PyQt.
 3. (Hard) Backend: The operators involved in loading data would need the same separation of the "active scale" concept. Involves PyQt and lazyflow, but mostly lazyflow.
-4. (Hard) Research: There is no clear "best" way to handle cross-scale machine learning. We have done some tests with one sample image dataset, but would need to run them on more datasets. We have more candidate datasets, but they require manual creation of ground-truth label images. Involves napari, jupyter notebooks and some machine learning outside of ilastik.
 
 * Skills involved: Python language, PyQt, scikit-image, scikit-learn
 * Difficulty: Hard
