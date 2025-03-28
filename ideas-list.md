@@ -38,7 +38,7 @@ Image analysis projects typically go through a development or "figuring out a pi
 Batch-processing is available at the end of all ilastik workflows, but ilastik's output will usually be a large number of processed images, which the user then wants to take into another tool - which can be quite bothersome.
 Two goals would be 
 
-1. Producing a `.csv` table of the exported files in a manner that [MoBIE](https://mobie.github.io/) understands, which would make quality-control on the exported images easier for many users
+1. Producing a `.tsv` table of the exported files in a manner that [MoBIE](https://mobie.github.io/) understands, which would make quality-control on the exported images easier for many users
 2. Supporting the same table format in the Input Data step of workflows, so that files exported from one workflow can easily be added to another workflow.
 
 * Related issues: https://github.com/ilastik/ilastik/issues/2822
