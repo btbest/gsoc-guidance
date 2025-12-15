@@ -1,6 +1,11 @@
+# GSoC 2026
+The organizations participating in Google Summer of Code 2026 have not yet been confirmed. ilastik is not applying as a standalone organization. Our participation will depend on the Python Software Foundation being confirmed as a participating organization in 2026 first. It will also depend on our own availability, which isn't guaranteed yet :)
+
+# GSoc 2025
+
 ## Contact / Questions
 
-ilastik participates in Google Summer of Code 2025 as a sub-organization under the Python Software Foundation umbrella. This means the [PSF's contributor guidance](https://python-gsoc.org/contributors.html) generally also applies to applications with us. At least mostly :) The parts mentioning IRC definitely do not apply to ilastik. Make sure you have read their advice!
+ilastik participated in Google Summer of Code 2025 as a sub-organization under the Python Software Foundation umbrella. This means the [PSF's contributor guidance](https://python-gsoc.org/contributors.html) generally also applies to applications with us. At least mostly :) The parts mentioning IRC definitely do not apply to ilastik. Make sure you have read their advice!
 
 Main contact and mentor for all projects will be Benedikt Best (@btbest, Central European time). Feel free to reach out by [email](mailto:team@ilastik.org) or DM via image.sc [zulip chat](https://imagesc.zulipchat.com/#user/614676).
 
