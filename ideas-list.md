@@ -19,7 +19,7 @@ Once you're running ilastik from code, you'd probably want to try what you can a
 
 ## Contact / Questions
 
-Main contact and mentor for all projects will be Benedikt Best (@btbest, Central European time). Feel free to reach out by [email](mailto:team@ilastik.org?subject=[GSoC]%20Contact%20from%20ideas%20list).
+Main contact and mentor for all projects will be Benedikt Best (@btbest, Central European time). Feel free to reach out by [email](mailto:team@ilastik.org?subject=[GSoC 2026]%20Contact%20from%20ideas%20list).
 
 ## LLM Disclaimer
 
